@@ -14,6 +14,13 @@ local options = {
   termguicolors = true,
   clipboard = "unnamedplus",
   conceallevel = 0,
+	mouse = "a",
+	wrap = false,
+  expandtab = true,
+	scrolloff = 8,
+	sidescrolloff = 8,
+	splitright = true,
+  splitbelow = true
 }
 
 vim.opt.shortmess:append "c"

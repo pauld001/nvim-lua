@@ -20,7 +20,11 @@ local options = {
 	scrolloff = 8,
 	sidescrolloff = 8,
 	splitright = true,
-  splitbelow = true
+  splitbelow = true,
+  guifont = "cantarell:h18",
+  shiftwidth = 2,
+  smartindent = true,
+  fileencoding = "utf-8",
 }
 
 vim.opt.shortmess:append "c"

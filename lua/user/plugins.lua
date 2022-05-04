@@ -2,16 +2,15 @@ return require('packer').startup(function()
         --Allows Packer to Manage itself
         use 'wbthomason/packer.nvim'
 	      --Themes
---	      use {'thedenisnikulin/vim-cyberpunk'}
+        --use {'thedenisnikulin/vim-cyberpunk'}
         use {"projekt0n/github-nvim-theme"}
         use {'sonph/onehalf'}
 	      --Code Addons
 	      use {'neovim/nvim-lspconfig'}
-	      use {'vim-airline/vim-airline-themes'}
+        use {'nvim-lualine/lualine.nvim', requires = { 'kyazdani42/nvim-web-devicons', opt = true }}
 	      use {'preservim/nerdtree'}
-	      use {'junegunn/vim-easy-align'}
+        use {'junegunn/vim-easy-align'}
 	      use {'airblade/vim-gitgutter'}
-	      use {'vim-airline/vim-airline'}
 	      use {'ryanoasis/vim-devicons'}
         use "williamboman/nvim-lsp-installer"
         use {"nvim-telescope/telescope.nvim", requires = {{'nvim-lua/plenary.nvim'}}}

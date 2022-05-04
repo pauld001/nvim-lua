@@ -6,3 +6,5 @@ require "lspconfig".pyright.setup{}
 require "user.nvimcmp"
 --require "user.lspinstall"
 require "user.lsp"
+require "user.lualine"
+

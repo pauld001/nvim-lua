@@ -2,7 +2,8 @@ return require('packer').startup(function()
         --Allows Packer to Manage itself
         use 'wbthomason/packer.nvim'
 	      --Themes
-	      use {'thedenisnikulin/vim-cyberpunk'}
+--	      use {'thedenisnikulin/vim-cyberpunk'}
+        use {"projekt0n/github-nvim-theme"}
         use {'sonph/onehalf'}
 	      --Code Addons
 	      use {'neovim/nvim-lspconfig'}

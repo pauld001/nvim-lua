@@ -1,4 +1,4 @@
-local colourscheme1 = "cyberpunk"
+local colourscheme1 = "github_dark_default"
 --local colourscheme1 = 'silverhand'
 local colourscheme2 = "onehalfdark" -- backup colourscheme
 

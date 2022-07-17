@@ -13,7 +13,6 @@ keymap("n", "<C-Right>", ":tabnext<cr>", opts)
 keymap("n", "<C-l>", ":tabnext<cr>", opts)
 keymap("n", "<C-q>", ":NERDTreeToggle<cr>", opts)
 
-
 -- VimScript Keymaps
 -- nnoremap <C-z> :undo<CR>                                                                  
 -- nnoremap <C-Left> :tabprevious<CR>                                                        
